@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <img class="img1" src="https://images.icon-icons.com/1857/PNG/512/checklist_117815.png" alt="image">
+            </div>
+            <div class="center">
+                <li>TO DO LIST</li>
+            </div>
+        </nav>
+    </header>
+    <div id="cont1" class="container1">
+        <div class="box1 boxx">
+            <button id="btn1" class="btn1">+</button>
+            <p class="p1">Add New Task</p>
+        </div>
+        <div class="box2 boxx">
+            <button id="btn2" class="btn1 btnn">X</button>
+            <p class="p1">Delete All</p>
+        </div>
+    </div>
+    <div id="cont2" class="container2">
+        <div class="box3">
+            <h1 class="h1">&nbsp;&nbsp;&nbsp;Add new task <button id="btn3" class="btn3">X</button></h1>
+            <p class="p2">Title*</p>
+            <input id="title" class="title-box" type="text" placeholder="Enter Your Task Title">
+            <p class="p3">Description*</p>
+            <textarea class="description-box" id="description" placeholder="Enter Your Task Description..."></textarea>
+            <button id="btn4" class="btn4">Add Task</button>
+        </div>
+    </div>
+    <!-- <div class="taskcontainer">
+        <h1 class="taskh1">${taskh1text}</h1>
+    <p class="taskp">${taskptext}</p>
+    <div class="task-edit-clear">
+        <button class="btngreen">Edit Task</button>
+        <button class="btn5">Clear Task</button>
+    </div>
+</div> -->
+    <script src="script.js"></script>
+</body>
+</html>
